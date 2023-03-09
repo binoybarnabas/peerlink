@@ -1,5 +1,6 @@
-const Decentragram = artifacts.require("Decentragram");
+const Peerlink = artifacts.require("Peerlink");
 
 module.exports = function(deployer) {
   // Code goes here...
+  deployer.deploy(Peerlink);
 };
